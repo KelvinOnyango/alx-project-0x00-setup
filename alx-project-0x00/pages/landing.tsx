@@ -38,7 +38,7 @@ const Landing: React.FC = () => {
             title="Full Rounded"
             size="medium"
             shape="rounded-full"
-            styles="bg-red-500 hover:bg-red-600 rounded-lg" // Added rounded-lg here
+            styles="bg-red-500 hover:bg-red-600 rounded-lg"
           />
         </div>
       </div>
