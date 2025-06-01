@@ -1,19 +1,30 @@
-# Airbnb Clone - Components Setup
+# Airbnb Clone Setup
 
-## Current Components
+## Components Documentation
 
-1. **Card Component**
+### Card Component
 
-   - Displays property information with:
-     - Image
-     - Title and location
-     - Rating
-     - Amenities
-     - Price
+- Displays property cards with:
+  - Image
+  - Title and location
+  - Rating
+  - Amenities
+  - Price
 
-2. **Pill Component**
-   - Reusable badge component for tags
-   - Takes a `title` prop to display different labels
+### Pill Component
+
+- Reusable tag component
+- Props:
+  - `title: string` (required)
+
+### Button Component
+
+- Configurable button with multiple variants
+- Props:
+  - `title: string` (required)
+  - `size?: 'small' | 'medium' | 'large'` (default: 'medium')
+  - `shape?: 'rounded-sm' | 'rounded-md' | 'rounded-full'` (default: 'rounded-md')
+  - `className?: string` (additional classes)
 
 ## Running the Project
 
