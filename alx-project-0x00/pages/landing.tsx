@@ -12,32 +12,33 @@ const Landing: React.FC = () => {
         <Card />
       </div>
 
-      <div className="mt-12 space-y-4">
+      <div className="mt-12 space-y-4 rounded-lg">
+        {" "}
+        {/* Added rounded-lg here */}
         <h2 className="text-lg font-semibold">Button Variants</h2>
-        <div className="flex flex-wrap gap-4 items-center">
+        <div className="flex flex-wrap gap-4 items-center rounded-lg">
+          {" "}
+          {/* And here */}
           <Button title="Small Button" size="small" />
           <Button title="Medium Button" size="medium" />
           <Button title="Large Button" size="large" />
-
           <Button
             title="Rounded Small"
             size="medium"
             shape="rounded-sm"
-            className="bg-green-500 hover:bg-green-600"
+            styles="bg-green-500 hover:bg-green-600"
           />
-
           <Button
             title="Rounded Medium"
             size="medium"
             shape="rounded-md"
-            className="bg-purple-500 hover:bg-purple-600"
+            styles="bg-purple-500 hover:bg-purple-600"
           />
-
           <Button
             title="Full Rounded"
             size="medium"
             shape="rounded-full"
-            className="bg-red-500 hover:bg-red-600"
+            styles="bg-red-500 hover:bg-red-600 rounded-lg" // Added rounded-lg here
           />
         </div>
       </div>

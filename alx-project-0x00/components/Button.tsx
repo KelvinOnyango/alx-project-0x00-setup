@@ -4,7 +4,7 @@ const Button: React.FC<ButtonProps> = ({
   title,
   size = "medium",
   shape = "rounded-md",
-  className = "",
+  styles = "",
 }) => {
   const sizeClasses = {
     small: "py-1 px-3 text-sm",
@@ -18,7 +18,7 @@ const Button: React.FC<ButtonProps> = ({
         ${sizeClasses[size]}
         ${shape}
         bg-blue-500 text-white hover:bg-blue-600 transition-colors
-        ${className}
+        ${styles}
       `}
     >
       {title}
